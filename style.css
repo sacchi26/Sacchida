@@ -536,7 +536,6 @@ i{
 
 .project-box::after,
 .contact-info::after{
-    content: "";
     position: absolute;
     bottom: -100%;
     background: #8749f2;
@@ -551,12 +550,7 @@ i{
     bottom: 0;
 }
 
-.project-box:hover.project-box i,
-.project-box:hover.project-box > h3,
-.project-box:hover.project-box >label{
-    color: #fff;
-    z-index: 2;
-}
+
 
 .top-header span{
     color: var(--text-color);
@@ -596,12 +590,6 @@ i{
     color: #8749f2;
 }
 
-.contact-info:hover.contact-info h2,
-.contact-info:hover.contact-info p,
-.contact-info:hover.contact-info i {
-    color: #fff;
-    z-index: 2;
-}
 
 .form-control{
     display: flex;
